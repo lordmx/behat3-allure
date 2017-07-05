@@ -1,0 +1,25 @@
+{
+  "name": "lordmx/behat3-allure",
+  "description": "Behat 3 output formatter for Yandex Allure",
+  "keywords": [
+    "Behat",
+    "Allure"
+  ],
+  "license": "Apache 2.0",
+  "authors": [
+    {
+      "name": "Ilya Kolesnikov",
+      "email": "fatumm@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "behat/behat": "^3.3",
+    "allure-framework/allure-php-api": "~1.1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "BehatAllure\\Behat\\": "src/"
+    }
+  }
+}

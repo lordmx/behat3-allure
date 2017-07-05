@@ -1,0 +1,1 @@
+# behat3-allure
